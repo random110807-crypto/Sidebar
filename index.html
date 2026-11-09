@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07100b">
+<title>NKT — Member Sidebar</title>
+<style>
+:root{--bg:#070b08;--panel:#0b120d;--gold:#d8b56d;--gold2:#f0d49a;--muted:#a99a7b;--line:rgba(207,168,91,.42);--green:#37a879;--text:#eadfc9}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#050806;color:var(--text);font-family:Georgia,"Times New Roman",serif}
+body{overflow-x:hidden}
+.wrap{width:min(100%,420px);margin:0 auto;padding:10px}
+.sidebar{position:relative;overflow:hidden;border:1px solid rgba(199,157,77,.72);border-radius:21px;padding:11px;background:radial-gradient(ellipse at 0 0,rgba(34,91,57,.23),transparent 36%),radial-gradient(ellipse at 100% 100%,rgba(23,85,52,.18),transparent 38%),linear-gradient(145deg,rgba(8,13,9,.98),rgba(5,8,6,.98) 55%,rgba(9,18,12,.98));box-shadow:0 0 0 1px rgba(35,87,57,.35),0 18px 55px rgba(0,0,0,.6),inset 0 0 38px rgba(24,74,45,.15)}
+.sidebar:before{content:"";position:absolute;inset:5px;border:1px solid rgba(45,112,73,.25);border-radius:16px;pointer-events:none}
+.corner{position:absolute;color:#b48a4d;font-size:17px;opacity:.7;pointer-events:none;z-index:2}
+.tl{top:6px;left:8px}.tr{top:6px;right:8px}.bl{bottom:6px;left:8px}.br{bottom:6px;right:8px}
+.brand{position:relative;z-index:1;display:grid;grid-template-columns:94px 1fr;gap:11px;align-items:center;padding:9px 7px 13px}
+.crest{width:88px;height:88px;display:grid;place-items:center;position:relative;border-radius:50%;border:1px solid rgba(216,181,109,.4);background:radial-gradient(circle,rgba(176,132,52,.15),transparent 66%)}
+.crest:before{content:"";position:absolute;inset:6px;border:1px solid rgba(216,181,109,.43);border-radius:50%}
+.crown{position:absolute;top:-4px;font-size:21px;color:var(--gold2);text-shadow:0 0 12px #b58b45}
+.letters{font-size:29px;color:#e9c77f;text-shadow:0 2px 10px #6f4c1e}
+.knight{position:absolute;bottom:3px;font-size:19px}
+h1{font-size:20px;line-height:1.05;letter-spacing:1.1px;color:var(--gold2);font-weight:normal;margin:0 0 6px}
+.motto{font-size:8px;letter-spacing:1px;color:#c3a36a;line-height:1.5}
+.tagline{font-size:12px;line-height:1.3;font-style:italic;color:#dfcfad;margin-top:6px}
+.card{position:relative;z-index:1;border:1px solid var(--line);border-radius:14px;margin:0 0 9px;padding:10px;background:linear-gradient(145deg,rgba(14,24,17,.88),rgba(5,10,7,.88));box-shadow:inset 0 0 20px rgba(38,95,59,.1),0 4px 14px rgba(0,0,0,.22);transition:border-color .2s,transform .2s}
+.card:hover{border-color:rgba(231,190,112,.75);transform:translateY(-1px)}
+.heading{display:flex;align-items:center;gap:7px;margin:0 0 9px;color:var(--gold);font-size:13px;letter-spacing:.65px;text-transform:uppercase;font-weight:normal}
+.heading .ico{color:var(--gold2);font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);padding:9px 4px}
+.stat{text-align:center;border-right:1px solid rgba(203,165,96,.23);padding:1px 3px}
+.stat:last-child{border:0}
+.symbol{font-size:18px;color:var(--gold);display:block;margin-bottom:2px}
+.stat strong{display:block;font-size:19px;font-weight:normal;color:#fff1d5;min-height:23px}
+.stat span:last-child{font-size:10px;color:var(--muted)}
+.event-top{display:flex;justify-content:space-between;align-items:center;gap:6px}
+.pill{font:10px Georgia,serif;color:#f0d08d;text-decoration:none;border:1px solid #8d672e;border-radius:20px;padding:6px 9px;white-space:nowrap;background:rgba(18,23,15,.75)}
+.pill:hover{background:#b88a43;color:#080a07}
+.countdown{display:flex;justify-content:center;gap:7px;margin:11px 0 4px}
+.timebox{text-align:center;min-width:48px}
+.timebox strong{display:block;font-size:27px;font-weight:normal;color:#f0c77f;letter-spacing:1px}
+.timebox small{font:8px Arial,sans-serif;letter-spacing:1px;color:#a9905e}
+.eventname{text-align:center;font-size:11px;color:#dfcfad;margin-top:6px}
+.event-meta{text-align:center;font:9px Arial,sans-serif;color:#9b8a68;margin-top:4px}
+.members{display:grid;gap:7px}
+.person{display:grid;grid-template-columns:40px 1fr auto;align-items:center;gap:9px;padding:6px 2px;border-bottom:1px solid rgba(203,165,96,.13)}
+.person:last-child{border-bottom:0}
+.avatar{width:38px;height:38px;border-radius:50%;border:1px solid #b9904e;background:#15251a;object-fit:cover}
+.person a{color:#f0dfbd;text-decoration:none;font:600 12px Arial,sans-serif}
+.person a:hover{color:#f5ce7b;text-decoration:underline}
+.joined{font:9px Arial,sans-serif;color:#ad9a74;text-align:right;white-space:nowrap}
+.empty{font:11px Arial,sans-serif;color:#a99a7b;text-align:center;padding:9px 3px}
+.quicklinks{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.linkbtn{display:flex;align-items:center;gap:7px;min-height:36px;padding:7px 8px;border:1px solid rgba(180,132,61,.55);border-radius:10px;text-decoration:none;color:#ead8b4;font-size:11px;background:linear-gradient(135deg,rgba(26,32,22,.9),rgba(5,8,5,.9));transition:transform .2s,border-color .2s}
+.linkbtn .ico{font-size:14px;color:#d6ae69;width:17px;text-align:center}
+.linkbtn:hover{transform:translateY(-2px);border-color:#e4bf77;box-shadow:0 0 13px rgba(204,162,82,.12)}
+.status{font:9px Arial,sans-serif;color:#8f8062;text-align:center;padding:2px 4px 7px}
+.footer{position:relative;z-index:1;text-align:center;padding:5px 0 1px;color:#9b7b46;font-size:8px;letter-spacing:2.5px}
+.footer:before{content:"";display:block;height:1px;background:linear-gradient(90deg,transparent,#8e6b36,transparent);margin:2px 12px 9px}
+.hidden{display:none!important}
+.error{color:#d5a17e}
+@media(max-width:350px){.wrap{padding:5px}.sidebar{padding:8px}.brand{grid-template-columns:78px 1fr;gap:8px}.crest{width:74px;height:74px}.letters{font-size:25px}h1{font-size:18px}.timebox{min-width:42px}.timebox strong{font-size:23px}.joined{font-size:8px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<main class="sidebar">
+<span class="corner tl">✦</span><span class="corner tr">✧</span><span class="corner bl">♞</span><span class="corner br">✦</span>
+<header class="brand">
+  <div class="crest" aria-label="NKT crest"><span class="crown">♛</span><span class="letters">NKT</span><span class="knight">♞</span></div>
+  <div><h1>NASHEDIYON<br>KI TOLI</h1><div class="motto">NEXUS · KNOWLEDGE · TRIUMPH</div><div class="tagline">Where minds meet,<br>legends begin.</div></div>
+</header>
+
+<section class="card stats" aria-label="Live club statistics">
+  <div class="stat"><span class="symbol">♟</span><strong id="memberCount">—</strong><span>Members</span></div>
+  <div class="stat"><span class="symbol">♜</span><strong id="avgRating">—</strong><span>Avg. Daily</span></div>
+  <div class="stat"><span class="symbol">⌛</span><strong id="founded">—</strong><span>Founded</span></div>
+</section>
+
+<section class="card hidden" id="eventCard">
+  <div class="event-top"><h2 class="heading" style="margin:0"><span class="ico">♛</span> Next Team Match</h2><a class="pill" id="eventLink" href="#" target="_blank" rel="noopener">View Match ↗</a></div>
+  <div class="countdown">
+    <div class="timebox"><strong id="days">00</strong><small>DAYS</small></div>
+    <div class="timebox"><strong id="hours">00</strong><small>HRS</small></div>
+    <div class="timebox"><strong id="mins">00</strong><small>MINS</small></div>
+    <div class="timebox"><strong id="secs">00</strong><small>SECS</small></div>
+  </div>
+  <div class="eventname" id="eventName"></div><div class="event-meta" id="eventMeta"></div>
+</section>
+
+<section class="card">
+  <h2 class="heading"><span class="ico">✦</span> Latest Joined Members</h2>
+  <div class="members" id="latestMembers"><div class="empty">Loading verified member data…</div></div>
+</section>
+
+<section class="card">
+  <h2 class="heading"><span class="ico">↗</span> Quick Links</h2>
+  <div class="quicklinks">
+    <a class="linkbtn" href="https://www.chess.com/club/nashediyon-ki-toli-nkt/about" target="_blank" rel="noopener"><span class="ico">♧</span>Rules &amp; Info</a>
+    <a class="linkbtn" href="https://www.chess.com/club/nashediyon-ki-toli-nkt/forum" target="_blank" rel="noopener"><span class="ico">☷</span>Forums</a>
+    <a class="linkbtn" href="https://www.chess.com/club/nashediyon-ki-toli-nkt/events" target="_blank" rel="noopener"><span class="ico">▦</span>Events</a>
+    <a class="linkbtn" href="https://www.chess.com/club/nashediyon-ki-toli-nkt" target="_blank" rel="noopener"><span class="ico">♞</span>Club Home</a>
+  </div>
+</section>
+
+<div class="status" id="dataStatus">Connecting to NKT public club data…</div>
+<footer class="footer">♞ · NKT · EST. 2025</footer>
+</main>
+</div>
+<script>
+(() => {
+  "use strict";
+  const DATA_URL = "./data.json";
+  const $ = id => document.getElementById(id);
+  const number = n => (n === null || n === undefined || n === "") ? "—" : Number(n).toLocaleString("en-IN");
+  const dateText = ts => {
+    if (!ts) return "Joining date unavailable";
+    const d = new Date(Number(ts) * 1000);
+    return "Joined " + d.toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"});
+  };
+  function renderMembers(items) {
+    const host = $("latestMembers");
+    host.textContent = "";
+    if (!Array.isArray(items) || !items.length) {
+      host.innerHTML = '<div class="empty">No public joining records are available yet.</div>';
+      return;
+    }
+    items.slice(0,3).forEach(p => {
+      const row = document.createElement("div"); row.className = "person";
+      const img = document.createElement("img"); img.className = "avatar";
+      img.alt = ""; img.loading = "lazy"; img.src = p.avatar || "";
+      img.onerror = () => { img.style.visibility = "hidden"; };
+      const info = document.createElement("div");
+      const a = document.createElement("a"); a.href = p.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = p.username;
+      info.appendChild(a);
+      const joined = document.createElement("div"); joined.className = "joined"; joined.textContent = dateText(p.joined);
+      row.append(img,info,joined); host.appendChild(row);
+    });
+  }
+  function renderEvent(event) {
+    if (!event || !event.start_time || !event.url) return;
+    $("eventCard").classList.remove("hidden");
+    $("eventName").textContent = event.name || "NKT team match";
+    $("eventLink").href = event.url;
+    $("eventMeta").textContent = "Starts " + new Date(event.start_time*1000).toLocaleString();
+    const tick = () => {
+      const diff = Math.max(0, event.start_time*1000-Date.now());
+      const d = Math.floor(diff/86400000), h = Math.floor(diff/3600000)%24, m = Math.floor(diff/60000)%60, s = Math.floor(diff/1000)%60;
+      $("days").textContent = String(d).padStart(2,"0");
+      $("hours").textContent = String(h).padStart(2,"0");
+      $("mins").textContent = String(m).padStart(2,"0");
+      $("secs").textContent = String(s).padStart(2,"0");
+      if (diff === 0) $("eventMeta").textContent = "Scheduled start time has arrived.";
+    };
+    tick(); window.setInterval(tick,1000);
+  }
+  async function load() {
+    try {
+      const response = await fetch(DATA_URL + "?v=" + Date.now(), {cache:"no-store"});
+      if (!response.ok) throw new Error("NKT data file returned " + response.status);
+      const data = await response.json();
+      $("memberCount").textContent = number(data.club && data.club.members_count);
+      $("avgRating").textContent = number(data.club && data.club.average_daily_rating);
+      $("founded").textContent = data.club && data.club.created ? new Date(data.club.created*1000).getFullYear() : "—";
+      renderMembers(data.latest_members || []);
+      renderEvent(data.next_team_match || null);
+      const updated = data.updated_at ? new Date(data.updated_at).toLocaleString() : "unknown";
+      $("dataStatus").textContent = "Public data · Updated " + updated;
+    } catch (err) {
+      $("dataStatus").textContent = "NKT data is temporarily unavailable. Please try again later.";
+      $("dataStatus").classList.add("error");
+      $("latestMembers").innerHTML = '<div class="empty">Member data could not be loaded.</div>';
+    }
+  }
+  load();
+})();
+</script>
+</body>
+</html>
