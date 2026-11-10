@@ -1,32 +1,32 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-10T07:30:01.609641+00:00",
+  "updated_at": "2026-11-10T19:52:12.661131+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 908,
-    "average_daily_rating": 816,
+    "members_count": 909,
+    "average_daily_rating": 815,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
     {
+      "username": "udit_x_penaldo",
+      "joined": 1794347065,
+      "url": "https://www.chess.com/member/Udit_x_Penaldo",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/609659070.91df2999.200x200o.e0624c1b774c.png"
+    },
+    {
+      "username": "ghhost123",
+      "joined": 1794343006,
+      "url": "https://www.chess.com/member/Ghhost123",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/596436690.791847f5.200x200o.d7c57cb8159a.jpg"
+    },
+    {
       "username": "babaleyla",
       "joined": 1794278590,
       "url": "https://www.chess.com/member/babaleyla",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/570199780.66d12ff1.200x200o.b9090c333100.jpg"
-    },
-    {
-      "username": "celestryn",
-      "joined": 1794241643,
-      "url": "https://www.chess.com/member/Celestryn",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/491174379.7e27c320.200x200o.07bfdd36b576.jpg"
-    },
-    {
-      "username": "kindheartedwriter",
-      "joined": 1794212948,
-      "url": "https://www.chess.com/member/KindheartedWriter",
-      "avatar": ""
     }
   ],
   "next_team_match": {
