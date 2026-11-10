@@ -1,14 +1,37 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": null,
+  "updated_at": "2026-11-10T07:30:01.609641+00:00",
   "club": {
-    "name": null,
-    "members_count": null,
-    "average_daily_rating": null,
-    "created": null,
-    "url": "https://www.chess.com/club/nashediyon-ki-toli-nkt"
+    "name": "Nashediyon Ki Toli - NKT",
+    "members_count": 908,
+    "average_daily_rating": 816,
+    "created": 1761922937,
+    "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
-  "latest_members": [],
-  "next_team_match": null
+  "latest_members": [
+    {
+      "username": "babaleyla",
+      "joined": 1794278590,
+      "url": "https://www.chess.com/member/babaleyla",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/570199780.66d12ff1.200x200o.b9090c333100.jpg"
+    },
+    {
+      "username": "celestryn",
+      "joined": 1794241643,
+      "url": "https://www.chess.com/member/Celestryn",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/491174379.7e27c320.200x200o.07bfdd36b576.jpg"
+    },
+    {
+      "username": "kindheartedwriter",
+      "joined": 1794212948,
+      "url": "https://www.chess.com/member/KindheartedWriter",
+      "avatar": ""
+    }
+  ],
+  "next_team_match": {
+    "name": "NKT CASABLANCA CHESS 2",
+    "start_time": 1794577500,
+    "url": "https://api.chess.com/pub/match/2021382"
+  }
 }
