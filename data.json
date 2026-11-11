@@ -1,15 +1,21 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-10T19:52:12.661131+00:00",
+  "updated_at": "2026-11-11T06:45:20.645838+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 909,
-    "average_daily_rating": 815,
+    "members_count": 911,
+    "average_daily_rating": 816,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
+    {
+      "username": "mittens_stockcat",
+      "joined": 1794370253,
+      "url": "https://www.chess.com/member/Mittens_Stockcat",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/584292418.c2ead264.200x200o.fac85a037fad.png"
+    },
     {
       "username": "udit_x_penaldo",
       "joined": 1794347065,
@@ -20,13 +26,7 @@
       "username": "ghhost123",
       "joined": 1794343006,
       "url": "https://www.chess.com/member/Ghhost123",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/596436690.791847f5.200x200o.d7c57cb8159a.jpg"
-    },
-    {
-      "username": "babaleyla",
-      "joined": 1794278590,
-      "url": "https://www.chess.com/member/babaleyla",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/570199780.66d12ff1.200x200o.b9090c333100.jpg"
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/596436690.3cbf0ead.200x200o.968b7cf6ffaf.jpg"
     }
   ],
   "next_team_match": {
