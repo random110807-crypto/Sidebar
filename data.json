@@ -1,32 +1,32 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-11T06:45:20.645838+00:00",
+  "updated_at": "2026-11-11T19:43:41.335178+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 911,
-    "average_daily_rating": 816,
+    "members_count": 913,
+    "average_daily_rating": 815,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
     {
+      "username": "maxthecastlev2",
+      "joined": 1794442901,
+      "url": "https://www.chess.com/member/MaxTheCastleV2",
+      "avatar": ""
+    },
+    {
+      "username": "yteay",
+      "joined": 1794438996,
+      "url": "https://www.chess.com/member/yteay",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/604619518.2693d1df.200x200o.280684be4013.jpg"
+    },
+    {
       "username": "mittens_stockcat",
       "joined": 1794370253,
       "url": "https://www.chess.com/member/Mittens_Stockcat",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/584292418.c2ead264.200x200o.fac85a037fad.png"
-    },
-    {
-      "username": "udit_x_penaldo",
-      "joined": 1794347065,
-      "url": "https://www.chess.com/member/Udit_x_Penaldo",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/609659070.91df2999.200x200o.e0624c1b774c.png"
-    },
-    {
-      "username": "ghhost123",
-      "joined": 1794343006,
-      "url": "https://www.chess.com/member/Ghhost123",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/596436690.3cbf0ead.200x200o.968b7cf6ffaf.jpg"
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/584292418.6997776e.200x200o.e22dbf949696.png"
     }
   ],
   "next_team_match": {
