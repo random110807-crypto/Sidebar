@@ -1,32 +1,32 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-12T07:24:48.235100+00:00",
+  "updated_at": "2026-11-12T20:07:02.542545+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 913,
-    "average_daily_rating": 815,
+    "members_count": 910,
+    "average_daily_rating": 814,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
     {
-      "username": "maxthecastlev2",
-      "joined": 1794442901,
-      "url": "https://www.chess.com/member/MaxTheCastleV2",
-      "avatar": ""
+      "username": "tanjiro_an1me",
+      "joined": 1794529141,
+      "url": "https://www.chess.com/member/Tanjiro_an1me",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/620115810.14285178.200x200o.d4ea9909a11e.png"
     },
     {
-      "username": "yteay",
-      "joined": 1794438996,
-      "url": "https://www.chess.com/member/yteay",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/604619518.2693d1df.200x200o.280684be4013.jpg"
+      "username": "smiiiiiittt",
+      "joined": 1794513907,
+      "url": "https://www.chess.com/member/SMiiiiiiTTT",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/587007560.6bc7fd8c.200x200o.a8ee31c259ec.png"
     },
     {
-      "username": "mittens_stockcat",
-      "joined": 1794370253,
-      "url": "https://www.chess.com/member/Mittens_Stockcat",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/584292418.6997776e.200x200o.e22dbf949696.png"
+      "username": "ritik_kaushal",
+      "joined": 1794505944,
+      "url": "https://www.chess.com/member/ritik_kaushal",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469796980.1b72a385.200x200o.ef73f67546bf.jpg"
     }
   ],
   "next_team_match": {
