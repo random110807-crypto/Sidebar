@@ -1,32 +1,32 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-14T06:43:12.624182+00:00",
+  "updated_at": "2026-11-14T18:17:34.002124+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 908,
+    "members_count": 911,
     "average_daily_rating": 815,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
     {
-      "username": "ram88024",
-      "joined": 1794584695,
-      "url": "https://www.chess.com/member/ram88024",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/604566870.14945abc.200x200o.26f3b6dd99ad.jpg"
+      "username": "janrise",
+      "joined": 1794683180,
+      "url": "https://www.chess.com/member/Janrise",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/609139914.c6b5b913.200x200o.9814552c6e95.jpg"
     },
     {
-      "username": "tanjiro_an1me",
-      "joined": 1794529141,
-      "url": "https://www.chess.com/member/Tanjiro_an1me",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/620115810.76862782.200x200o.8a99e4c750a5.png"
+      "username": "tuanhoangzerki2015pro-max",
+      "joined": 1794672784,
+      "url": "https://www.chess.com/member/tuanhoangzerki2015pro-max",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/562957995.7ddcea86.200x200o.31209f7af3c1.png"
     },
     {
-      "username": "smiiiiiittt",
-      "joined": 1794513907,
-      "url": "https://www.chess.com/member/SMiiiiiiTTT",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/587007560.02f4ee13.200x200o.9a2fc9d70499.jpg"
+      "username": "amsterdam641",
+      "joined": 1794672487,
+      "url": "https://www.chess.com/member/Amsterdam641",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/120326780.1c9bc728.200x200o.6831f14cc60a.jpeg"
     }
   ],
   "next_team_match": {
