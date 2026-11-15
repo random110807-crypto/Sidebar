@@ -1,7 +1,7 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-14T18:17:34.002124+00:00",
+  "updated_at": "2026-11-15T06:48:49.856407+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
     "members_count": 911,
@@ -10,6 +10,12 @@
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
+    {
+      "username": "aiden_zhu_2016",
+      "joined": 1794719217,
+      "url": "https://www.chess.com/member/Aiden_Zhu_2016",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/595560790.369df81c.200x200o.b521fdbf9549.jpg"
+    },
     {
       "username": "janrise",
       "joined": 1794683180,
@@ -21,12 +27,6 @@
       "joined": 1794672784,
       "url": "https://www.chess.com/member/tuanhoangzerki2015pro-max",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/562957995.7ddcea86.200x200o.31209f7af3c1.png"
-    },
-    {
-      "username": "amsterdam641",
-      "joined": 1794672487,
-      "url": "https://www.chess.com/member/Amsterdam641",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/120326780.1c9bc728.200x200o.6831f14cc60a.jpeg"
     }
   ],
   "next_team_match": {
