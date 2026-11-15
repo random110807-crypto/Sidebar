@@ -1,37 +1,37 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-15T06:48:49.856407+00:00",
+  "updated_at": "2026-11-15T18:58:05.371045+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 911,
-    "average_daily_rating": 815,
+    "members_count": 913,
+    "average_daily_rating": 816,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
     {
+      "username": "reinhardan_astrea",
+      "joined": 1794792884,
+      "url": "https://www.chess.com/member/Reinhardan_Astrea",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/303824883.899ecc27.200x200o.fa0e714f762d.jpg"
+    },
+    {
+      "username": "ddjyflau",
+      "joined": 1794791650,
+      "url": "https://www.chess.com/member/ddjyflau",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/150813739.cf92b61f.200x200o.f8989bf30a6a.png"
+    },
+    {
       "username": "aiden_zhu_2016",
       "joined": 1794719217,
       "url": "https://www.chess.com/member/Aiden_Zhu_2016",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/595560790.369df81c.200x200o.b521fdbf9549.jpg"
-    },
-    {
-      "username": "janrise",
-      "joined": 1794683180,
-      "url": "https://www.chess.com/member/Janrise",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/609139914.c6b5b913.200x200o.9814552c6e95.jpg"
-    },
-    {
-      "username": "tuanhoangzerki2015pro-max",
-      "joined": 1794672784,
-      "url": "https://www.chess.com/member/tuanhoangzerki2015pro-max",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/562957995.7ddcea86.200x200o.31209f7af3c1.png"
     }
   ],
   "next_team_match": {
-    "name": "NKT Casablanca Chess ",
-    "start_time": 1794744900,
-    "url": "https://api.chess.com/pub/match/2021384"
+    "name": "NKT CASABLANCA ",
+    "start_time": 1794837600,
+    "url": "https://api.chess.com/pub/match/2021386"
   }
 }
