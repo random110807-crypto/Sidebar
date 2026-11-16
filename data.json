@@ -1,15 +1,21 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-16T06:47:27.612030+00:00",
+  "updated_at": "2026-11-16T22:19:11.698002+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 916,
-    "average_daily_rating": 815,
+    "members_count": 917,
+    "average_daily_rating": 816,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
+    {
+      "username": "rammerhuman",
+      "joined": 1794846446,
+      "url": "https://www.chess.com/member/Rammerhuman",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141115839.80d2a422.200x200o.772909ededd5.jpeg"
+    },
     {
       "username": "howard7388",
       "joined": 1794821631,
@@ -21,17 +27,11 @@
       "joined": 1794804682,
       "url": "https://www.chess.com/member/RescueCar",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/605722690.39019aa5.200x200o.b2a380366dbd.jpg"
-    },
-    {
-      "username": "0307mik",
-      "joined": 1794804295,
-      "url": "https://www.chess.com/member/0307mik",
-      "avatar": ""
     }
   ],
   "next_team_match": {
-    "name": "NKT CASABLANCA ",
-    "start_time": 1794837600,
-    "url": "https://api.chess.com/pub/match/2021386"
+    "name": "NKT CASABLANCA CHESS DAILY 3",
+    "start_time": 1794897900,
+    "url": "https://api.chess.com/pub/match/2021602"
   }
 }
