@@ -1,32 +1,32 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-17T21:04:39.310688+00:00",
+  "updated_at": "2026-11-18T07:42:14.526520+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 921,
+    "members_count": 923,
     "average_daily_rating": 816,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
     {
+      "username": "jannehyytiainen",
+      "joined": 1795014474,
+      "url": "https://www.chess.com/member/JanneHyytiainen",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/505878001.9cba8afd.200x200o.fa26ff61a7d5.jpg"
+    },
+    {
+      "username": "kamal-bluddd",
+      "joined": 1795001845,
+      "url": "https://www.chess.com/member/kamal-bluddd",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/599074068.bebaa7b8.200x200o.c5e77b2e8817.jpg"
+    },
+    {
       "username": "thecheessmastertrust",
       "joined": 1794950732,
       "url": "https://www.chess.com/member/thecheessmastertrust",
       "avatar": ""
-    },
-    {
-      "username": "sushant_s4",
-      "joined": 1794923498,
-      "url": "https://www.chess.com/member/Sushant_s4",
-      "avatar": ""
-    },
-    {
-      "username": "sturmtiger-38cmrw61",
-      "joined": 1794923144,
-      "url": "https://www.chess.com/member/SturmTiger-38CMRW61",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/587256004.153d256c.200x200o.7c312787a743.jpg"
     }
   ],
   "next_team_match": null
