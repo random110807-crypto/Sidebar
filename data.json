@@ -1,11 +1,11 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-18T20:41:39.901918+00:00",
+  "updated_at": "2026-11-19T07:39:25.252118+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 929,
-    "average_daily_rating": 814,
+    "members_count": 928,
+    "average_daily_rating": 813,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
