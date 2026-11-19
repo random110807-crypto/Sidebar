@@ -1,32 +1,32 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-19T07:39:25.252118+00:00",
+  "updated_at": "2026-11-19T20:47:49.355213+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 928,
-    "average_daily_rating": 813,
+    "members_count": 933,
+    "average_daily_rating": 815,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
     {
-      "username": "entamack",
-      "joined": 1795050686,
-      "url": "https://www.chess.com/member/entamack",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/164404587.3454714d.200x200o.5343549865ce.jpg"
-    },
-    {
-      "username": "sergeant-mc",
-      "joined": 1795046965,
-      "url": "https://www.chess.com/member/sergeant-mc",
+      "username": "rahul308g",
+      "joined": 1795122597,
+      "url": "https://www.chess.com/member/rahul308g",
       "avatar": ""
     },
     {
-      "username": "radha-191",
-      "joined": 1795045524,
-      "url": "https://www.chess.com/member/radha-191",
-      "avatar": ""
+      "username": "anurag7906443636",
+      "joined": 1795118539,
+      "url": "https://www.chess.com/member/Anurag7906443636",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/474886436.85575cf0.200x200o.0699ed39dadf.jpg"
+    },
+    {
+      "username": "basstom45",
+      "joined": 1795115282,
+      "url": "https://www.chess.com/member/BassTom45",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/363133855.dc8b43a3.200x200o.c516e60e3b2a.jpg"
     }
   ],
   "next_team_match": null
