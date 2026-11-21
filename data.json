@@ -1,15 +1,21 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-21T07:25:10.313165+00:00",
+  "updated_at": "2026-11-21T19:28:46.244984+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 933,
-    "average_daily_rating": 816,
+    "members_count": 934,
+    "average_daily_rating": 815,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
+    {
+      "username": "msoni717",
+      "joined": 1795304597,
+      "url": "https://www.chess.com/member/Msoni717",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/593812630.c4004240.200x200o.272ae9fd17f5.jpg"
+    },
     {
       "username": "watermark-zx",
       "joined": 1795232304,
@@ -21,12 +27,6 @@
       "joined": 1795209907,
       "url": "https://www.chess.com/member/jamaljuma",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/387748833.748db292.200x200o.9e5a5f5ffca4.jpg"
-    },
-    {
-      "username": "ajmeakins",
-      "joined": 1795177053,
-      "url": "https://www.chess.com/member/AJmeakins",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/251668971.462e77db.200x200o.5eab2fbe2edc.jpg"
     }
   ],
   "next_team_match": null
