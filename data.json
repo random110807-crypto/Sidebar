@@ -1,15 +1,21 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-22T07:05:47.483422+00:00",
+  "updated_at": "2026-11-22T19:50:39.288696+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 935,
+    "members_count": 937,
     "average_daily_rating": 816,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
+    {
+      "username": "onitha123dinudika",
+      "joined": 1795364550,
+      "url": "https://www.chess.com/member/ONitha123dinudika",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/325768847.381e9374.200x200o.37f2b03c218d.png"
+    },
     {
       "username": "flower5247",
       "joined": 1795356102,
@@ -17,16 +23,10 @@
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/581043126.523178f7.200x200o.58b1186c7c03.jpg"
     },
     {
-      "username": "msoni717",
-      "joined": 1795304597,
-      "url": "https://www.chess.com/member/Msoni717",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/593812630.c4004240.200x200o.272ae9fd17f5.jpg"
-    },
-    {
-      "username": "watermark-zx",
-      "joined": 1795232304,
-      "url": "https://www.chess.com/member/watermark-zx",
-      "avatar": ""
+      "username": "kayl12qw",
+      "joined": 1795337371,
+      "url": "https://www.chess.com/member/kayl12qw",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/328941621.3382ce27.200x200o.e6d09be78035.jpg"
     }
   ],
   "next_team_match": null
