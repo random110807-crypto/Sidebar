@@ -1,32 +1,32 @@
 {
   "source": "Chess.com Published-Data API",
   "club_slug": "nashediyon-ki-toli-nkt",
-  "updated_at": "2026-11-27T08:48:07.033055+00:00",
+  "updated_at": "2026-11-27T21:27:43.750011+00:00",
   "club": {
     "name": "Nashediyon Ki Toli - NKT",
-    "members_count": 935,
-    "average_daily_rating": 813,
+    "members_count": 941,
+    "average_daily_rating": 812,
     "created": 1761922937,
     "url": "https://api.chess.com/pub/club/nashediyon-ki-toli-nkt"
   },
   "latest_members": [
     {
-      "username": "contractualaddition",
-      "joined": 1795743911,
-      "url": "https://www.chess.com/member/ContractualAddition",
+      "username": "eetjynnah-4",
+      "joined": 1795808989,
+      "url": "https://www.chess.com/member/eetjynnah-4",
       "avatar": ""
     },
     {
-      "username": "ittd9v",
-      "joined": 1795736035,
-      "url": "https://www.chess.com/member/ittd9v",
-      "avatar": ""
+      "username": "nina_chess2017",
+      "joined": 1795807371,
+      "url": "https://www.chess.com/member/nina_chess2017",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/613192018.e8624378.200x200o.9abbddf661d1.jpg"
     },
     {
-      "username": "mattbutnot0",
-      "joined": 1795735242,
-      "url": "https://www.chess.com/member/MattButNot0",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/501270371.678ce57d.200x200o.b662c255b6ca.png"
+      "username": "berkay",
+      "joined": 1795805073,
+      "url": "https://www.chess.com/member/Berkay",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/438886847.fef03cca.200x200o.5e025182903a.jpg"
     }
   ],
   "next_team_match": null
